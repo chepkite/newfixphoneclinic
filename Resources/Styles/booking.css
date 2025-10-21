@@ -1,0 +1,53 @@
+/* --- Booking Form Styles --- */
+.booking-form {
+  max-width: 500px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.booking-form label {
+  font-weight: 600;
+  color: #333;
+}
+
+.booking-form input,
+.booking-form textarea {
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1em;
+  width: 100%;
+  transition: border-color 0.3s;
+}
+
+.booking-form input:focus,
+.booking-form textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.booking-form .btn.primary {
+  background: #007bff;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.booking-form .btn.primary:hover {
+  background: #0056b3;
+  transform: scale(1.03);
+}
+
+/* Mobile tweaks */
+@media (max-width: 600px) {
+  .booking-form {
+    padding: 0 20px;
+  }
+}
+/* --- End of Booking Form Styles --- */

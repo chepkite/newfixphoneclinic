@@ -1,0 +1,24 @@
+NewFix-Phone-Clinic/
+│
+├── index.html
+├── about.html
+├── services.html
+├── book.html
+├── contact.html
+│
+├── styles/
+│   ├── main.css
+│   ├── header.css
+│   ├── footer.css
+│
+├── scripts/
+│   ├── main.js
+│   ├── form.js
+│
+└── images/
+    ├── logo.png
+    ├── hero.jpg
+    ├── repair1.jpg
+    ├── repair2.jpg
+    ├── team.jpg
+    └── contact-map.png
